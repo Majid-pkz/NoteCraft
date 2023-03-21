@@ -3,6 +3,7 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+const testButton = document.querySelector('#warning-btn');
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -181,3 +182,44 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+
+
+
+
+
+function display(){
+  console.log('test is working')
+
+}
+testButton.addEventListener('click',display)
+// noteList.addEventListener('click',display)
+// Get all elements with data-* attributes
+
+
+
+
+
+
+$('.list-group')
+.on('click', function(e){
+  
+  const val= e.target.getAttribute("data-note")
+  console.log("dataAtr is", val)
+  
+  
+});
+
+
+
+
+
+
+$('.list-group-item')
+.on('click', function(e){
+  
+  const val= e.target.getAttribute("data-note")
+  console.log("dataAtr is", val)
+  
+  
+});
