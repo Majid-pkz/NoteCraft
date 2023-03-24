@@ -9,6 +9,8 @@
 * [Technology](#technology)  
 * [Dependencies](#dependencies)    
 * [Installation](#installation)
+* [Mock](#mock)
+* [Deployment](#deployment)
 
 ## Description
 
@@ -42,7 +44,7 @@ all dependencies were included in package.json file and simply the following com
 npm install  
 ```
 
-## Mock-Up
+## Mock
 
 The following images show the web application's appearance and functionality:
 
