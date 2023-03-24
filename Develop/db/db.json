@@ -2,26 +2,21 @@
     {
         "title": "Test Title",
         "text": "Test text",
-        "note_id": "ca0616fa-f603-4d85"
+        "id": "ca0616fa-f603-4d85"
     },
     {
         "title": "WORK",
         "text": "WEDNESDAY MARBLE BAR\n",
-        "note_id": "dd6c017a-83ff-41c9-a285-335febaa6d72"
+        "id": "dd6c017a-83ff-41c9-a285-335febaa6d72"
     },
     {
         "title": "Exercise",
         "text": "8:30 am at Coogee beach",
-        "note_id": "dec8f9c4-ab17-4723-ae95-53c557dbe4c1"
+        "id": "dec8f9c4-ab17-4723-ae95-53c557dbe4c1"
     },
     {
         "title": "Doctor",
         "text": "gp",
-        "note_id": "05cce1f1-0755-40a3-a36e-bca051b60a25"
-    },
-    {
-        "title": "hi",
-        "text": "bye",
-        "note_id": "f63ff473-16db-4d24-be5e-f9dc9bb79aff"
+        "id": "05cce1f1-0755-40a3-a36e-bca051b60a25"
     }
 ]
