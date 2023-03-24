@@ -8,18 +8,7 @@
 * [Description](#description)
 * [Technology](#technology)  
 * [Dependencies](#dependencies)    
-* [Installation](#installation)    
-* [license](#license)
-
-    
-* [contributors](#contributors)
-
-    
-* [tests](#tests)
-
-    
-* [questions](#questions)
-
+* [Installation](#installation)
 
 ## Description
 
