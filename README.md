@@ -54,13 +54,7 @@ The following images show the web application's appearance and functionality:
 
 ## Deployment
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
+[* Application deployed at live URL.](https://sleepy-oasis-80483.herokuapp.com/)
 
 
 - - -
