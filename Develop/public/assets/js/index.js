@@ -198,28 +198,63 @@ testButton.addEventListener('click',display)
 
 
 
+// const getClickedNote = () =>
 
-
-
-$('.list-group')
-.on('click', function(e){
+//   fetch(`/api/notes/${noteId}`, {
+    
+//     method: 'GET',
+//     headers: {
+//       'Content-Type': 'application/json',
+//     },
+    
+//   });
   
-  const val= e.target.getAttribute("data-note")
-  console.log("dataAtr is", val)
+
+
+
+
+
+// $('.list-group')
+// .on('click', function(e){
+  
+//   const val= e.target.getAttribute("data-note")
+//   // console.log("dataAtr is", val)
+//   const parsedObj = JSON.parse(val);
+//   const noteId = parsedObj.note_id;
+//   // console.log(noteId);
+
+//   getClickedNote()
+  
+// });
+
+// const clickHandler = async (e) => {
+//   const val = e.target.getAttribute("data-note");
+//   const parsedObj = JSON.parse(val);
+//   const noteId = parsedObj.note_id;
+//   console.log(noteId)
+//   await   fetch(`api/notes/${noteId}`, {
+    
+//     method: 'GET',
+//     headers: {
+//       'Content-Type': 'application/json',
+//     },
+    
+//   });;
+// };
+
+// $('.list-group').on('click', clickHandler);
+
+
+
+
+
+
+
+// $('.list-group-item')
+// .on('click', function(e){
+  
+//   const val= e.target.getAttribute("data-note")
+//   console.log("dataAtr is", val)
   
   
-});
-
-
-
-
-
-
-$('.list-group-item')
-.on('click', function(e){
-  
-  const val= e.target.getAttribute("data-note")
-  console.log("dataAtr is", val)
-  
-  
-});
+// });
