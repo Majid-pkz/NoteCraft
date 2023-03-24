@@ -3,7 +3,6 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-const testButton = document.querySelector('#warning-btn');
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -183,78 +182,3 @@ if (window.location.pathname === '/notes') {
 
 getAndRenderNotes();
 
-
-
-
-
-
-function display(){
-  console.log('test is working')
-
-}
-testButton.addEventListener('click',display)
-// noteList.addEventListener('click',display)
-// Get all elements with data-* attributes
-
-
-
-// const getClickedNote = () =>
-
-//   fetch(`/api/notes/${noteId}`, {
-    
-//     method: 'GET',
-//     headers: {
-//       'Content-Type': 'application/json',
-//     },
-    
-//   });
-  
-
-
-
-
-
-// $('.list-group')
-// .on('click', function(e){
-  
-//   const val= e.target.getAttribute("data-note")
-//   // console.log("dataAtr is", val)
-//   const parsedObj = JSON.parse(val);
-//   const noteId = parsedObj.note_id;
-//   // console.log(noteId);
-
-//   getClickedNote()
-  
-// });
-
-// const clickHandler = async (e) => {
-//   const val = e.target.getAttribute("data-note");
-//   const parsedObj = JSON.parse(val);
-//   const noteId = parsedObj.note_id;
-//   console.log(noteId)
-//   await   fetch(`api/notes/${noteId}`, {
-    
-//     method: 'GET',
-//     headers: {
-//       'Content-Type': 'application/json',
-//     },
-    
-//   });;
-// };
-
-// $('.list-group').on('click', clickHandler);
-
-
-
-
-
-
-
-// $('.list-group-item')
-// .on('click', function(e){
-  
-//   const val= e.target.getAttribute("data-note")
-//   console.log("dataAtr is", val)
-  
-  
-// });
